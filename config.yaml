@@ -1,0 +1,116 @@
+    # Project definitions (do not edit)
+Task: bme 550 project
+scorer: eunice
+date: Nov25
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\10a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\10b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\10c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\1a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\1b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\1c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\2a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\2b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\2c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\3a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\3b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\3c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\4a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\4b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\4c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\5a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\6b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\6c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\7a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\7b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\7c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\8a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\8b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\8c.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\9a.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\9b.mp4:
+    crop: 0, 1920, 0, 1080
+  C:\Users\e8poon\Desktop\BME550_Project\bme 550 project-eunice-2023-11-25\videos\9c.mp4:
+    crop: 0, 1920, 0, 1080
+bodyparts:
+- hand
+- elbow
+- shoulder
+- head
+- back
+- hip
+- knee
+- ankle
+- foot
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - objectA
+  - bodypart3
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
